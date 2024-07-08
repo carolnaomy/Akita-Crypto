@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="img/logo.png" />
+		<title>Naomycripted</title>
+	</head>
+<body>
+    <script src="main.js" type="module"></script>
+    <div class="cursor"></div>
+    <img
+        class="logo"
+        src="img/logo.png"
+        alt="teste213"
+    />
+    <main class="webapp">
+        <section class="conteudo">
+            <form class="form">
+                <textarea
+                    class="form_input"
+                    placeholder="Digite o texto aqui"
+                    id="input"
+                    name="input"
+                    rows="15"
+                    cols="50"
+                ></textarea>
+                <div class="form_aviso">
+                    <img
+                        src="img/vetor.png"
+                        class="form_aviso_icone"
+                    />
+                    <p class="form_aviso_texto">
+                        Apenas letras minúsculas e sem acento.
+                    </p>
+                </div>
+                <div class="botao">
+                    <button
+                        class="botao_area_criptografar"
+                        type="button"
+                    >
+                        Criptografar
+                    </button>
+                    <button
+                        class="botao_area_descriptografar"
+                        type="button"
+                    >
+                        Descriptografar
+                    </button>
+                </div>
+            </form>
+        </section>
+        <section class="painel_resposta alinhamento_painel_resposta">
+            <img
+                class="imagem_painel_resposta"
+                src="img/dog-confused.png"
+                alt="cachorro segurando uma lupa"
+            />
+            <div class="painel_resposta_area_texto">
+                <h2 class="titulo_painel_resposta">
+                    Nenhuma mensagem encontrada
+                </h2>
+                <p class="painel_resposta_subtexto">
+                    Digite um texto que você deseja criptografar ou
+                    descriptografar.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
