@@ -25,6 +25,6 @@ Este projeto é um aplicação web de criptografia e descriptografia de texto qu
 ## Feito por:
 ### Caroline
 ### Linkedin: https://www.linkedin.com/in/carolinenaomy
-```
+
 
 
